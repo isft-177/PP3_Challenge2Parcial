@@ -10,13 +10,13 @@
 2) Se cambió la contraseña
 3) Se creó la carpeta /home/jorge/www
 4) Se creó y configuró el VirtualHost en /etc/apache2/sites.available con el nombre jorge.practicas.com.ar.conf con la configuración adecuada.
-5) Se encendió el virtualhost: <b> sudo a2ensite jorge.practicas.com.ar.conf</b>
-6) Se recargó apache: <b> sudo systemctl reload apache2</b>
-7) Se agregó al usuario jorge al grupo de www-data: <b>sudo usermod -g www-data jorge</b>
-8) Se cambiaron los permisos a la carpeta /home/jorge/www: <b>sudo chmod 755 /home/jorge/www</b>
-9) Ubicado en /etc/apache2/sites-available se ejcutó el comando: <b>sudo certbot --apache -g jorge.practicas.com.ar</b> y se seleccionó la opción 2 redirect. Una vez finalizado se crearon los certificados:
-   * /etc/letsencrypt/live/jorge.practicas.com.ar/fullchain.pem
-   * /etc/letsencrypt/live/jorge.practicas.com.ar/privkey.pem
+5) Se encendió el virtualhost: __sudo a2ensite jorge.practicas.com.ar.conf__
+6) Se recargó apache: ***_sudo systemctl reload apache2_***
+7) Se agregó al usuario jorge al grupo de www-data: ___sudo usermod -g www-data jorge___
+8) Se cambiaron los permisos a la carpeta /home/jorge/www: __sudo chmod 755 /home/jorge/www__
+9) Ubicado en /etc/apache2/sites-available se ejcutó el comando: ***_sudo certbot --apache -g jorge.practicas.com.ar_*** y se seleccionó la opción 2 redirect. Una vez finalizado se crearon los certificados:
+   * _/etc/letsencrypt/live/jorge.practicas.com.ar/fullchain.pem_
+   * _/etc/letsencrypt/live/jorge.practicas.com.ar/privkey.pem_
 10) Se creo el cron para poder renovar automáticamente el certificado:
 11) Se creó el script con el comando:
     #### sudo nano /etc/cron.daily/certbot-renew

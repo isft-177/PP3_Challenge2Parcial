@@ -5,6 +5,19 @@
 
 ![](./Challenge2_Parcial.png)
 
+# Desarrollo
+#### Para el desarrollo de las funciones matemáticas se utiliza la librería [mathjs](https://mathjs.org/index.html):
+   ![](./images/mathjs_330x100.png)
+
+ <p>Se decide utilizar esta librería ya que contiene entre otras la funcionalidad para poder evaluar un expresión 
+   lo que simplifica el desarrollo.</p>
+
+#### Las operaciones soportadas son:
+
+![](./images/calculadora.png)
+
+La función m+ captura el resultado actual y lo guarda en el local storage para poder recuperarse con la operación Ans.
+
 # Cambios realizados en el Servidor
 1) Se ingresó al server con las credenciales provistas.
 2) Se cambió la contraseña

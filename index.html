@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PP3 Challenge Parcial</title>
+
+    <script src="js/kit-font-awesome.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles-min.css">
+</head>
+<body>
+    <main class="container-all">
+        <div class="back-header">
+            <h1>PP2 Challenge Parcial</h1>
+        </div>
+        <div class="back-op">
+            <div class="field-result">
+                <div class="show-op turn-on-off" id="text"></div>
+                <input readonly autocomplete="off" id="results_calc" type="hidden" value="" size="28" maxlength="25">
+                <div class="show-result"></div>
+            </div>
+            <section class="container">
+                <div class="btn-column">
+                    <span>ON/OFF</span>
+                    <button id="onOffBtn" class="btn btn-on-off"></button>
+                </div>
+            </section>
+            <section class="container-one">
+                <span class="btn-cs opacity"></span>
+                <span class="btn-cs opacity"></span>
+                <span class="btn-cs opacity"></span>
+                <button class="btn-cs" value="pi">&#960;</button>
+                <button class="btn-cs" value="XXX">x³</button>
+                <button class="btn-cs" value="&#8730;">&#8730;</button>
+                <button class="btn-cs" value="XX">x²</button>
+                <button class="btn-cs" value="^(">^</button>
+                <button class="btn-cs" value="log">log</button>
+                <button class="btn-cs" value="ln">ln</button>
+                <button class="btn-cs" value="e">e</button>
+                <button class="btn-cs" value="fact">n!</button>
+                <button class="btn-cs" value="sin(">sin</button>
+                <button class="btn-cs" value="cos(">cos</button>
+                <button class="btn-cs" value="tan(">tan</button>
+                <button class="btn-cs" value="(">(</button>
+                <button class="btn-cs" value=")">)</button>
+                <button class="btn-cs" value="m+">m+</button>
+            </section>
+            <section class="container-two">
+                <button class="btn-math" value="7">7</button>
+                <button class="btn-math" value="8">8</button>
+                <button class="btn-math" value="9">9</button>
+                <button class="btn-math btn-action" value="del">DEL</button>
+                <button class="btn-math btn-action" value="clear">AC</button>
+                <button class="btn-math" value="4">4</button>
+                <button class="btn-math" value="5">5</button>
+                <button class="btn-math" value="6">6</button>
+                <button class="btn-math" value="*">x</button>
+                <button class="btn-math" value="/">/</button>
+                <button class="btn-math" value="1">1</button>
+                <button class="btn-math" value="2">2</button>
+                <button class="btn-math" value="3">3</button>
+                <button class="btn-math" value="+">+</button>
+                <button class="btn-math" value="-">-</button>
+                <button class="btn-math" value="0">0</button>
+                <button class="btn-math" value=".">.</button>
+                <button class="btn-math" value="exp">EXP</button>
+                <button class="btn-math" value="ans">Ans</button>
+                <button class="btn-math" value="equal">=</button>
+            </section>
+        </div>
+    </main>
+
+</body>
+<script src="js/mathjs-min.js"></script>
+<script src="js/main-min.js"></script>
+</html>
